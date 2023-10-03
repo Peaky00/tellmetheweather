@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body>
+    <div class="search-container">
+        <input type="text" id="city-input" placeholder="Enter city name">
+        <button id="search-button">Search</button>
+    </div>
+    <div id="temperature"></div>
+
+    <div id="search-history" class="history-container">
+        <!-- Search history items will be added here dynamically -->
+    </div>
+    <div id="weather-display" class="weather-container">
+        <!-- Weather information will be displayed here dynamically -->
+    </div>
+    <p id="error-message" style="color: red;"></p>
+    <script src="./assets/javascript/script.js"></script>
+</body>
+</html>
